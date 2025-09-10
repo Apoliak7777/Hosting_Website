@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta author="Nikola Radisic">
+    <title>Minecraft | ApoliakHost</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.png"/>
+
+    <!-- Bootstrap v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <!-- Poppins Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- OWL Slider v2.3.4 -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"> 
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav id="fixedR" class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid container-custom">
+        <a class="navbar-brand text-white" href="index.html">
+            <div class="d-flex">
+                <img class="mr-2" src="assets/images/logo.svg">
+                <h2 class="mb-0 d-flex align-items-center">Apoliak<span>Host</span></h2>
+            </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarType" aria-controls="navbarType" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-start-lg" tabindex="-1" id="navbarType" aria-labelledby="navbarType">
+            <div class="offcanvas-header d-flex d-lg-none">
+                <div class="d-flex">
+                    <img class="mr-2" src="assets/images/logo.svg">
+                    <h2 class="mb-0 d-flex align-items-center">Apoliak<span>Host</span></h2>
+                </div>
+            </div>
+            <div class="offcanvas-body p-lg-0">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="game-servers.html">Game Servers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About us</a>
+                    </li>
+                    <div class="button">
+                        <div class="dropdown">
+                            <a href="minecraft.html#" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><img src="assets/images/user.svg"> Login</a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="#">
+                                <li><a class="dropdown-item" href="minecraft.html#">Billing Panel <span class="d-block">Billing and Support</span></a></li>
+                                <li><a class="dropdown-item" href="minecraft.html#">Game Panel <span class="d-block">Game Management</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+    <!-- Header -->
+    <div class="header header_game" style="background: url('assets/images/games_banner/minecraft.png');">
+        <div class="container-fluid container-custom">
+            <div class="text-center">
+                <h2 class="mb-2">Minecraft Hosting</h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- Game Plans -->
+    <div class="game_plans py-5">
+        <div class="container-fluid container-custom">
+            <div class="site_title">
+                <h2>Our Minecraft Server Plans</h2>
+            </div>
+            <div class="tab-content">
+                <!-- Plans -->
+                <div id="budget" class="tab-pane active">
+                    <div class="row">
+                        <!-- Plans One -->
+                        <div class="col-md-4">
+                            <div class="card mb-4">
+                                <div class="card-body">
+                                    <h2 class="mb-4">Grass</h2>
+                                    <div class="card-value mb-4 text-center">
+                                        <span>2 € / monthly</span>
+                                    </div>
+                                    <h3 class="text-center mb-4">1GB</h3>
+                                    <div class="row mb-4">
+                                        <div class="col-sm-6">
+                                           <p style="font-size: 18px;">vCPU 1x</p>
+                                    </div>
+                                        <div class="col-sm-6">
+                                           <p style="font-size: 18px;">DISK 5 GB</p>
+                                    </div>
+                                        <div class="col-sm-6">
+                                            <p>Fast Support <span>24 / 7</span></p>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <p>Instant <span>Setup</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="text-center">
+                                        <a href="minecraft.html" class="btn">Order now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Plans Two -->
+                        <div class="col-md-4">
+                            <div class="card mb-4">
+                                <div class="card-body">
+                                    <h2 class="mb-4">Sand</h2>
+                                    <div class="card-value mb-4 text-center">
+                                        <span>4 € / monthly</span>
+                                    </div>
+                                    <h3 class="text-center mb-4">2GB</h3>
+                                    <div class="row mb-4">
+                                        <div class="col-sm-6">
+                                           <p style="font-size: 18px;">vCPU 2x</p>
+                                    </div>
+                                        <div class="col-sm-6">
+                                           <p style="font-size: 18px;">DISK 10 GB</p>
+                                    </div>
+                                        <div class="col-sm-6">
+                                            <p>Fast Support <span>24 / 7</span></p>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <p>Instant <span>Setup</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="text-center">
+                                        <a href="minecraft.html" class="btn">Order now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Plans Three -->
+                        <div class="col-md-4">
+                            <div class="card mb-4">
+                                <div class="card-body">
+                                    <h2 class="mb-4">Cobble</h2>
+                                    <div class="card-value mb-4 text-center">
+                                         <span>8 € / monthly</span>
+                                    </div>
+                                    <h3 class="text-center mb-4">4GB</h3>
+                                    <div class="row mb-4">
+                                        <div class="col-sm-6">
+                                           <p style="font-size: 18px;">vCPU 3x</p>
+                                    </div>
+                                        <div class="col-sm-6">
+                                           <p style="font-size: 18px;">DISK 15 GB</p>
+                                    </div>
+                                        <div class="col-sm-6">
+                                            <p>Fast Support <span>24 / 7</span></p>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <p>Instant <span>Setup</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="text-center">
+                                        <a href="minecraft.html" class="btn">Order now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Plans Four -->
+                        <div class="col-md-4">
+                            <div class="card mb-4">
+                                <div class="card-body">
+                                    <h2 class="mb-4">Iron</h2>
+                                    <div class="card-value mb-4 text-center">
+                                         <span>10 € / monthly</span>
+                                    </div>
+                                    <h3 class="text-center mb-4">6GB</h3>
+                                    <div class="row mb-4">
+                                        <div class="col-sm-6">
+                                           <p style="font-size: 18px;">vCPU 4x</p>
+                                    </div>
+                                        <div class="col-sm-6">
+                                           <p style="font-size: 18px;">DISK 30 GB</p>
+                                    </div>
+                                        <div class="col-sm-6">
+                                            <p>Fast Support <span>24 / 7</span></p>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <p>Instant <span>Setup</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="text-center">
+                                        <a href="minecraft.html" class="btn">Order now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Plans Five -->
+                        <div class="col-md-4">
+                            <div class="card mb-4">
+                                <div class="card-body">
+                                    <h2 class="mb-4">Gold</h2>
+                                    <div class="card-value mb-4 text-center">
+                                        <span>14 € / monthly</span>
+                                    </div>
+                                    <h3 class="text-center mb-4">8GB</h3>
+                                    <div class="row mb-4">
+                                        <div class="col-sm-6">
+                                           <p style="font-size: 18px;">vCPU 4x</p>
+                                    </div>
+                                        <div class="col-sm-6">
+                                           <p style="font-size: 18px;">DISK 50 GB</p>
+                                    </div>
+                                        <div class="col-sm-6">
+                                            <p>Fast Support <span>24 / 7</span></p>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <p>Instant <span>Setup</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="text-center">
+                                        <a href="minecraft.html" class="btn">Order now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Plans Six -->
+                        <div class="col-md-4">
+                            <div class="card mb-4">
+                                <div class="card-body">
+                                    <h2 class="mb-4">Netherite</h2>
+                                    <div class="card-value mb-4 text-center">
+                                        <span>20 € / monthly</span>
+                                    </div>
+                                    <h3 class="text-center mb-4">14GB</h3>
+                                    <div class="row mb-4">
+                                        <div class="col-sm-6">
+                                           <p style="font-size: 18px;">vCPU 4x</p>
+                                    </div>
+                                        <div class="col-sm-6">
+                                           <p style="font-size: 18px;">DISK 80 GB</p>
+                                    </div>
+                                        <div class="col-sm-6">
+                                            <p>Fast Support <span>24 / 7</span></p>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <p>Instant <span>Setup</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="text-center">
+                                        <a href="minecraft.html" class="btn">Order now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+    <!-- Game Info -->
+    <div class="panel py-5">
+        <div class="container-fluid container-custom">
+            <div class="row d-flex justify-content-between">
+                <div class="col-lg-6 d-flex align-items-center">
+                    <div class="panel_content">
+                        <h2>Enterprise Grade Game Panel</h2>
+                        <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium cupiditate eaque quisquam, itaque sint iusto dolores eligendi reprehenderit ipsum natus unde nulla explicabo quia voluptate libero vel eveniet minima laborum.</p>
+                        <ul>
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <li><img src="assets/images/web_console.svg"> Web Console</li>
+                                    <li><img src="assets/images/ftp.svg"> File Management</li>
+                                </div>
+                                <div class="col-md-7">
+                                    <li><img src="assets/images/mod.svg"> Automatic Server Mod Installations</li>
+                                    <li><img src="assets/images/sub_users.svg"> Sub User creation</li>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="faq py-5">
+        <div class="container-fluid container-custom">
+   <!-- Footer -->
+    <footer class="py-5">
+    <div class="container-fluid container-custom">
+        <div class="need_more py-5 px-5 mb-5">
+            <span class="need_more_icon"></span>
+            <div class="row d-flex justify-content-between">
+                <div class="col-lg-8 col-md-8">
+                    <h2>Need to know more?</h2>
+                    <p>If you have any questions about any of our services, do not hesitate to reach out by getting in contact with us. We are here to serve you!</p>
+                </div>
+                <div class="col-lg-4 col-md-4 d-flex align-items-center">
+                    <div class="need_more_right float-end">
+                        <a href="mailto:alexpoliak21@gmail.com" class="btn">Contact us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row footer_links">
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <ul>
+                            <li><a href="terms-of-service.html">Terms of Service</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 footer_about">
+                <div class="d-flex mb-2">
+                    <img class="mr-2" src="assets/images/logo.svg">
+                    <h2 class="mb-0 d-flex align-items-center">Apoliak<span>Host</span></h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="footer_bottom py-2">
+    <div class="container-fluid container-custom">
+        <div class="row d-flex justify-content-between">
+            <div class="col-lg-6 col-sm-4 d-flex justify-content-between">
+                <div class="d-flex align-items-center me-auto footer-right">
+                    <img src="assets/images/paymethod.png" height="30">
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-8 d-flex align-items-center">
+                <div class="d-flex align-items-center ms-auto footer-left">
+                    <p class="mb-0">&copy; 2020-2025 ApoliakHost All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- Jquery v3.6.1 -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap v5.2.1 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+    <!-- OWL Slider v2.3.4 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <!-- Sweet Alert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- Web Site Cookie -->
+    <script src="https://cdn.websitepolicies.io/lib/cookieconsent/cookieconsent.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="assets/js/main.js"></script>
+
+    <script>
+    // Products  //
+    $(document).ready(function() {
+        $('a[data-bs-toggle="tab"]').on('show.bs.tab', function(e) {
+            localStorage.setItem('activeTab', $(e.target).attr('href'));
+        });
+        var activeTab = localStorage.getItem('activeTab');
+        if (activeTab) {
+            $('#swicherMC a[href="' + activeTab + '"]').tab('show');
+        }
+    });
+
+    // Panel Preview //
+    jQuery("#panel").owlCarousel({autoplay:!1,rewind:!0,margin:0,mouseDrag: true,nav:false,dots:false,lazyLoad:!0,items:1});
+
+    // Youtube Close //
+    $('.modal').on('hide.bs.modal',function(){var memory=$(this).html();$(this).html(memory);});
+    </script>
+</body>
+</html>
