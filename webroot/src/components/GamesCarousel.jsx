@@ -31,7 +31,7 @@ function useTilt() {
 const games = [
   { 
     name: 'Minecraft', 
-    src: '/images/games_banner/minecraft.png', 
+    src: `${import.meta.env.BASE_URL}images/games_banner/minecraft.png`, 
     players: '142k', 
     category: 'Sandbox',
     tag: 'Java + Bedrock', 
@@ -40,7 +40,7 @@ const games = [
   },
   { 
     name: 'Rust', 
-    src: '/images/games_banner/rust.png', 
+    src: `${import.meta.env.BASE_URL}images/games_banner/rust.png`, 
     players: '89k', 
     category: 'Survival',
     tag: 'Survival', 
@@ -49,7 +49,7 @@ const games = [
   },
   { 
     name: 'Counter-Strike 2', 
-    src: '/images/games_banner/csgo.png', 
+    src: `${import.meta.env.BASE_URL}images/games_banner/csgo.png`, 
     players: '67k', 
     category: 'Shooter',
     tag: 'Competitive', 
@@ -58,7 +58,7 @@ const games = [
   },
   { 
     name: 'ARK: Survival Ascended', 
-    src: '/images/games_banner/ark.png', 
+    src: `${import.meta.env.BASE_URL}images/games_banner/ark.png`, 
     players: '41k', 
     category: 'Survival',
     tag: 'Dinosaurs', 
@@ -67,7 +67,7 @@ const games = [
   },
   { 
     name: 'Valheim', 
-    src: '/images/games_banner/valheim.png', 
+    src: `${import.meta.env.BASE_URL}images/games_banner/valheim.png`, 
     players: '29k', 
     category: 'Survival',
     tag: 'Vikings', 
@@ -76,7 +76,7 @@ const games = [
   },
   { 
     name: 'DayZ', 
-    src: '/images/games_banner/dayz.png', 
+    src: `${import.meta.env.BASE_URL}images/games_banner/dayz.png`, 
     players: '18k', 
     category: 'Hardcore',
     tag: 'Hardcore', 

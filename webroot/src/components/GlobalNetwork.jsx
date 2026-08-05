@@ -29,7 +29,7 @@ export default function GlobalNetwork() {
 
       <div className="relative mx-auto max-w-[1100px]">
         <img 
-          src="/images/worldmap.png" 
+          src={`${import.meta.env.BASE_URL}images/worldmap.png`} 
           alt="World Map" 
           className="w-full opacity-40 object-contain max-h-[520px] pointer-events-none select-none"
         />
