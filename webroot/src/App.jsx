@@ -21,7 +21,7 @@ const ProtectedRoute = ({ children }) => {
 function App() {
   return (
     <AuthProvider>
-      <Router>
+      <Router basename={import.meta.env.BASE_URL}>
         <div className="min-h-screen flex flex-col bg-dark text-white font-sans selection:bg-accent-blue selection:text-white">
           <Navbar />
           <main className="flex-1">
